@@ -2,6 +2,17 @@
 
 `beam_d` is a beam-only structural-engineering toolkit. The analysis core is intentionally based on a **2D planar frame element** so the same foundation can later support straight beams, stepped-top beams, stepped-bottom beams, vertical offsets, and sloped/Z-shaped beam axes.
 
+## Open the program with one click on Windows
+
+1. Download the `agent/frame-core-foundation` branch as a ZIP file.
+2. Extract the ZIP file to a normal folder. Do not run it from inside the ZIP.
+3. Double-click `OPEN_BEAM_D.bat`.
+4. On the first run, wait while the launcher creates a private Python environment and installs the required packages.
+5. The Streamlit program opens automatically in the default browser.
+6. Keep the black launcher window open while using the program. Close it to stop beam_d.
+
+Python 3.10 or newer is required. During Python installation, select **Add Python to PATH**. See `HOW_TO_OPEN.txt` for troubleshooting.
+
 ## Current engineering scope
 
 This first increment provides the verified global-analysis foundation:
